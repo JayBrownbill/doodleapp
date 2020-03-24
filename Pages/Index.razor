@@ -1,7 +1,27 @@
-﻿@page "/"
+﻿@using CaitCreates.Components
 
-<h1>Hello, world!</h1>
 
-Welcome to your new app.
+@page "/";
+<div class="container">
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+        <div class="banner">
+            <img src="/images/websiteheadingtransparent.png" alt="Cait Creates Art Banner" id="banner-top"/>
+        </div>
+
+        <div class="row">
+            <div class="col-10 intro">
+                <Intro />
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col card-container">
+                <CardLineUp/>                
+            </div>
+        </div>
+      
+</div>
+
+
+
